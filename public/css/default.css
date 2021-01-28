@@ -1,0 +1,99 @@
+body {
+  background: #cecece;
+  padding: 0 0 2rem 0;
+}
+
+header {
+  height: 70px;
+  background: #a0a0a0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+header a, header form button {
+  color: #000;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  margin-left: 1rem;
+}
+header a:focus, header form button:focus {
+  color: #000;
+}
+header a:hover, header form button:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+table {
+  margin: 0;
+  display: inline-block;
+}
+table img {
+  max-height: 50px;
+}
+table > thead > tr > th {
+  padding: 0.5rem;
+}
+table > tbody > tr > td {
+  border-bottom: 1px solid #8c8c8c;
+  padding: 0.5rem;
+}
+table > tbody > tr:last-of-type > td {
+  border: 0;
+}
+
+.jetstream > div > div:first-of-type {
+  display: none;
+}
+.jetstream > div > div:nth-of-type(2) {
+  margin: 0;
+  padding: 0;
+  background-color: transparent !important;
+}
+
+form label {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+}
+form label[for=remember_me] {
+  width: auto;
+}
+form label[for=remember_me] > input {
+  width: auto;
+  display: inline-block;
+}
+form input, form select {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+form img {
+  width: 100%;
+}
+
+form button, form input[type=submit], form a, table button, table input[type=submit], table a {
+  background: #656565;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 0;
+}
+form button:hover, form input[type=submit]:hover, form a:hover, table button:hover, table input[type=submit]:hover, table a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.house-image {
+  width: 100%;
+}
+
+/*# sourceMappingURL=default.css.map */

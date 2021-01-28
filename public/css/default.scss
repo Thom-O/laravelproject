@@ -1,0 +1,101 @@
+body {
+    background: #cecece;
+    padding: 0 0 2rem 0;
+}
+
+header {
+    height: 70px;
+    background: #a0a0a0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    a , form button {
+        color: #000;
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        margin-left: 1rem;
+        &:focus {
+            color: #000;
+        }
+        &:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+    }
+}
+
+table {
+    margin: 0;
+    display: inline-block;
+    img {
+        max-height: 50px;
+    }
+    >thead > tr > th {
+        padding: 0.5rem;
+    }
+    > tbody > tr{
+        > td {
+            border-bottom: 1px solid #8c8c8c;
+            padding: 0.5rem;
+        }
+        &:last-of-type >td {
+            border: 0;
+        }
+    }
+}
+.jetstream > div {
+    > div:first-of-type {
+        display: none;
+    }
+    > div:nth-of-type(2) {
+        margin: 0;
+        padding: 0;
+        background-color: transparent !important;
+    }
+}
+form {
+    label {
+        width: 100%;
+        margin: 0 0 0.5rem 0;
+    }
+    label[for="remember_me"] {
+        width: auto;
+        > input {
+            width: auto;
+            display: inline-block;
+        }
+    }
+    input, select {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+        border: 0;
+        box-shadow: none;
+        outline: none;
+    }
+    img {
+        width: 100%;
+    }
+}
+form, table {
+    button, input[type="submit"], a {
+        background: #656565;
+        border: 0;
+        box-shadow: none;
+        outline: none;
+        color: #fff;
+        padding: 0.5rem 1.5rem;
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 0;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+.house-image {
+    width: 100%;
+}
